@@ -1,0 +1,140 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del body */
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('https://static.vecteezy.com/system/resources/previews/011/058/150/non_2x/blank-white-background-with-wavy-green-and-simple-design-suitable-for-presentation-background-vector.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 80px; /* Para dar espacio al footer */
+}
+
+/* Estilo del header */
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(0, 77, 64, 0.7); /* Fondo oscuro semi-transparente */
+    border-radius: 8px;
+    margin-top: 30px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 1.3rem;
+    color: #e0f2f1;
+    font-style: italic;
+}
+
+/* Estilos de las secciones */
+section {
+    width: 80%;
+    max-width: 1200px;
+    padding: 30px;
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 0.85); /* Fondo blanco con algo de transparencia */
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos de los encabezados en secciones */
+h2 {
+    color: #00796b;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+h3 {
+    color: #00796b;
+    font-size: 1.7rem;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+/* Estilos de las imágenes */
+.imagen-central, .imagen-historia, .imagen-economia, .imagen-turismo, .imagen-gastronomia {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos de las listas */
+ul {
+    margin-left: 30px;
+    list-style-type: square;
+}
+
+ul li {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* Estilos del footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgba(0, 121, 107, 0.9); /* Fondo verde con transparencia */
+    color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-radius: 12px 12px 0 0;
+}
+
+/* Botón de regresar */
+footer .btn-regresar {
+    background-color: #004d40;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+footer .btn-regresar:hover {
+    background-color: #00332c;
+}
+
+/* Estilos de texto en el footer */
+footer p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #e0f2f1;
+}
+
+/* Efecto en las imágenes */
+.imagen-central:hover,
+.imagen-historia:hover,
+.imagen-economia:hover,
+.imagen-turismo:hover,
+.imagen-gastronomia:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}

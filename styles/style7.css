@@ -1,0 +1,110 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del body */
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://i.pinimg.com/736x/0f/8e/f7/0f8ef79d4bdd091e27407ee590464154.jpg') no-repeat center center fixed; /* Cambia el URL por la ruta de tu imagen */
+    background-size: cover;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Estilo del header */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #004d40;
+    margin: 20px 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Estilos de las secciones */
+section {
+    width: 80%;
+    max-width: 1200px;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con algo de transparencia */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos de los encabezados en secciones */
+h2 {
+    color: #00796b;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #00796b;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+/* Estilos de las imágenes */
+.imagen-central, .imagen-historia, .imagen-economia, .imagen-turismo, .imagen-gastronomia {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Estilos de las listas */
+ul {
+    margin-left: 20px;
+    list-style-type: square;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilos del footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgba(0, 121, 107, 0.8); /* Fondo verde con transparencia */
+    color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+/* Botón de regresar */
+footer .btn-regresar {
+    background-color: #004d40;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer .btn-regresar:hover {
+    background-color: #00332c;
+}
+
+.imagen {
+    width: 250px;
+    height: 200px;
+}
