@@ -1,5 +1,6 @@
+/* Configuración general */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', Arial, sans-serif; /* Tipografía más elegante */
     margin: 0;
     padding: 0;
     text-align: center;
@@ -8,16 +9,16 @@ body {
     color: white;
 }
 
-/* Mejor contraste y visibilidad */
+/* Header mejorado */
 header {
     background: rgba(0, 0, 0, 0.8);
     padding: 20px;
-    font-size: 2em;
+    font-size: 1em;
     font-weight: bold;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
-/* Cajas de contenido mejoradas */
+/* Cajas de contenido */
 .contenido, .info, .historia, .cantones {
     background: rgba(0, 0, 0, 0.75);
     padding: 20px;
@@ -25,14 +26,27 @@ header {
     border-radius: 10px;
     max-width: 80%;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+    text-align: justify; /* Texto justificado */
+    line-height: 1.8; /* Espaciado para mejor lectura */
 }
 
-/* Listas con mejor estilo */
+/* Estilo para los títulos */
+h2 {
+    font-size: 2.2em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    color: #f8f8f8;
+    font-weight: 600;
+}
+
+/* Estilo para listas */
 ul {
     list-style: none;
     padding: 0;
+    font-size: 1.2em;
+    text-align: justify;
 }
 
+/* Estilo para cada item de la lista */
 ul li {
     background: rgba(255, 255, 255, 0.2);
     margin: 5px 0;
@@ -40,61 +54,28 @@ ul li {
     border-radius: 5px;
 }
 
-/* Mejor visualización de imágenes */
+/* Ajuste de imágenes para que sean más pequeñas y estéticas */
 img {
-    width: 80%;
-    max-width: 600px;
+    width: 70%;
+    max-width: 500px;
     border-radius: 10px;
-    margin: 10px 0;
+    margin: 15px 0;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/* Pie de página mejorado */
+/* Pie de página */
 footer {
     background: rgba(0, 0, 0, 0.9);
     padding: 15px;
-    position: fixed;
-    bottom: 0;
+    position: relative;
     width: 100%;
     font-size: 0.9em;
 }
 
-/* Estilos para la sección general */
-.info {
-    background: rgba(255, 255, 255, 0.2);
-    color: #fff;
-    padding: 30px;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
-}
-
-/* Estilos para el título */
-h2 {
-    font-size: 2em;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-}
-
-/* Estilo para las listas */
-ul {
-    list-style: none;
-    padding: 0;
-    font-size: 1.2em;
-}
-
-/* Estilo para cada atracción */
-.attraction {
-    margin-bottom: 30px;
-}
-
-/* Estilo para las imágenes */
-img {
-    width: 90%;
-    max-width: 800px;
-    border-radius: 10px;
-    margin-bottom: 15px;
-}
-/* Estilos para la sección de cantones */
+/* Sección de cantones */
 .cantones {
     background: rgba(255, 255, 255, 0.3);
     padding: 30px;
@@ -104,22 +85,13 @@ img {
     max-width: 900px;
 }
 
-/* Estilo para el título */
 .cantones h2 {
     font-size: 2em;
     text-align: center;
     margin-bottom: 20px;
-    color: #333;
+    color: white;
 }
 
-/* Estilo para los elementos de la lista */
-.cantones ul {
-    list-style: none;
-    padding: 0;
-    font-size: 1.2em;
-}
-
-/* Estilo para cada item de la lista */
 .cantones ul li {
     background: rgba(0, 0, 0, 0.5);
     margin: 15px 0;
@@ -129,23 +101,23 @@ img {
     justify-content: space-between;
     align-items: center;
     color: #fff;
-    height: 120px; /* Mayor altura */
+    min-height: 100px;
     box-sizing: border-box;
 }
 
-/* Estilo para el botón CONOCER MÁS */
+/* Botón "CONOCER MÁS" */
 .btn-conocer {
     background-color: #007BFF;
     color: white;
-    padding: 12px 25px;
+    padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
     transition: background-color 0.3s;
-    margin-left: 15px; /* Para dar espacio entre el texto y el botón */
+    margin-left: 15px;
+    font-size: 1em;
 }
 
-/* Cambiar color al pasar el mouse */
 .btn-conocer:hover {
     background-color: #0056b3;
 }

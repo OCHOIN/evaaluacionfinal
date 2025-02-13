@@ -13,7 +13,10 @@ header {
     color: white;
     text-align: center;
     padding: 20px 0;
-    font-size: 1.8em;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 section {
@@ -23,18 +26,23 @@ section {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
 }
 
 h2 {
     color: #2980b9;
     border-bottom: 2px solid #2980b9;
     padding-bottom: 5px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 p {
-    line-height: 1.6;
+    line-height: 1.8;
+    font-size: 1.1em;
 }
 
+/* Estilos para listas */
 ul {
     list-style-type: square;
     padding-left: 20px;
@@ -42,30 +50,35 @@ ul {
 
 /* Estilos para imágenes */
 img {
-    width: 100%;
-    height: auto;
+    width: 250px;
+    height: 250px;
     border-radius: 8px;
     margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Botón de regresar */
 .btn-regresar {
     display: block;
-    width: 200px;
+    width: 220px;
     margin: 20px auto;
-    padding: 10px;
+    padding: 12px;
     background-color: #e74c3c;
     color: white;
     text-align: center;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     font-size: 1.2em;
+    font-weight: bold;
     cursor: pointer;
-    transition: background 0.3s;
+    transition: background 0.3s, transform 0.2s;
 }
 
 .btn-regresar:hover {
     background-color: #c0392b;
+    transform: scale(1.05);
 }
 
 footer {
@@ -74,9 +87,5 @@ footer {
     background-color: #34495e;
     color: white;
     margin-top: 20px;
+    font-size: 1em;
 }
-.imagen-economia {
-    width: 150px;
-    height: 150px;
-  }
-  
